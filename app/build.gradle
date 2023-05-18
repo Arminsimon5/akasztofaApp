@@ -3,11 +3,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace 'com.uuuu.app'
     compileSdk 33
 
     defaultConfig {
         applicationId "com.uuuu.app"
+=======
+    namespace 'com.uuuu.akasztofaApp'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.uuuu.akasztofaApp"
+>>>>>>> d565c1d (2.commit)
         minSdk 24
         targetSdk 33
         versionCode 1

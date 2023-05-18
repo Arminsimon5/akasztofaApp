@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> d565c1d (2.commit)
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".MainActivity">
 
     <TextView
@@ -16,3 +21,66 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageExecutionPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/akasztofa0"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/megfejtesAllapot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO W__!"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="75dp"
+            android:src="@drawable/akasztofa0"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/textHelp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ex velit. Maecenas consectetur tempor ipsum, sed convallis arcu ullamcorper non. Vestibulum mollis odio a dui scelerisque condimentum. Nunc mollis, lectus non consequat consequat, nulla ex elementum lectus, eget ultrices purus ex a quam. Donec vel libero sollicitudin, porttitor sapien ac, varius nisi. Mauris sed urna ullamcorper, pharetra dolor non, vulputate nisi. Nam interdum elit eu elit molestie ultricies. Cras lobortis ante ligula, quis vestibulum diam elementum vel. Vivamus purus sem, suscipit sit amet euismod eget, pretium eu lorem. Vivamus tempor odio massa. Donec in tortor imperdiet, porttitor velit ut, mollis tortor. Phasellus aliquam lacus pellentesque, viverra odio et, sagittis lacus. Curabitur ornare interdum odio nec aliquet. Sed condimentum, odio quis pulvinar facilisis, erat arcu aliquam arcu, quis posuere justo purus ut purus. Ut quis nibh mauris." />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutLetters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <androidx.constraintlayout.helper.widget.Flow
+           android:id="@+id/flowLetters"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           app:flow_wrapMode="chain"
+           app:layout_constraintStart_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/statusBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>
+>>>>>>> d565c1d (2.commit)

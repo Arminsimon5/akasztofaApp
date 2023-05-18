@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/userProfile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_child_care_24"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/setLanguage"
+        android:title="Language">
+        <menu >
+            <item android:id="@+id/language_ru"
+                android:title="Русский"/>
+            <item android:id="@+id/language_en"
+                android:title="English"/>
+            <item android:id="@+id/language_chn"
+                android:title="中国人"/>
+        </menu>
+    </item>
+    <item android:title="Difficulty level">
+        <menu>
+            <item android:id="@+id/levelEasy"
+                android:title="Easy"/>
+            <item android:id="@+id/levelHard"
+                android:title="Hard"/>
+        </menu>
+    </item>
+    <item android:title="Category">
+        <menu>
+            <item android:id="@+id/category1"
+                android:title="Category1"/>
+            <item android:id="@+id/category2"
+                android:title="Category2"/>
+        </menu>
+    </item>
+    <item android:title="Exit"/>
+</menu>
